@@ -19,7 +19,7 @@ bookings = -1
 
 def menu_action_register_customer():
     global customers  
-    name = input("Enter customer name: ")
+    name = input("Enter customer name, please: ")
     phone = input("Enter customer phone: ")
     email = input("Enter customer email: ")
     customer = Customer(name, phone, email)
